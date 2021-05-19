@@ -74,6 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # Terrafrom
-
-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
 git@github.com:hmunoz/aws-amplify.git
+
+
+cd deploy # change to deploy directory
+terraform init # initialises Terraform
+terraform apply # deploys AWS stack
+terraform destroy # destroys AWS stack
